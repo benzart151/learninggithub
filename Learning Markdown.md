@@ -64,6 +64,7 @@ Also Headline Level 2
 
 The rest of the headlines have the corrosponding number of hashmarks at the beginning.
 ```
+### Headline Level 3
 #### Headline Level 4
 ##### Headline Level 5
 ###### Headline Level 6
@@ -172,20 +173,32 @@ https://www.linkedin.com
 
 Images
 ---------------------------------------------------
+The 1st way to link an image is to put the reference in brackets with an exclamation point at the beginning. The put the URL to the image in parenthasis.
+```
 ![Tomolor](https://pixelprowess.com/i/stargazers/tomolor.png) 
- reference     imag address
- 
- 
+```
+
+![Tomolor](https://pixelprowess.com/i/stargazers/tomolor.png) 
+
+The 2nd way to link an image is to put the reference in brackets with an exclamation point at the beginning<br>
+`![Tomolor]` Reference<br>
+<br>
+Then put the reference in brackets followed by a colon and then the URL somewhere else in the document<br>
+`[Tomolor]: https://pixelprowess.com/i/stargazers/tomolor.png` Image URL
+
 ![Tomolor]
-	reference
+	
 	
 [Tomolor]: https://pixelprowess.com/i/stargazers/tomolor.png
-	image address
+
 	
 
-The image reference and image address are surrounded by brackets followed by the link address which makes and image link.	
+To create an image that is also a link, the image reference and image address are surrounded by brackets followed by the link address which makes and image link.<br>	
+`[![Tomolor](https://pixelprowess.com/i/stargazers/tomolor.png)](https://raybo.org)`<br>
+* The 1st set of brackets contains an exclamation mark forllowed, by the bracketed image reference followed by the image URL in parentheses
+* The closing bracket for the image and image URL is followed by the link URL in parentheses
+
 [![Tomolor](https://pixelprowess.com/i/stargazers/tomolor.png)](https://raybo.org)
-   Img REf  img address                           				link address
    
 <br>
 <br>
@@ -193,18 +206,38 @@ The image reference and image address are surrounded by brackets followed by the
 
 Markdown Additions (GFM) GitHub Flavored Markdown
 -----------------------------------------------------------------------------------------------------
-This is a footnote [^1]
-This is another footnote [^2]
+This is a footnote [^1] *Denoted by the code* `[^1]`<br>
+This is another footnote [^2] *Denoted by the code* `[^2]`
 
 The footnotes point to references as below
+```
 [^1]: My reference
-[^2}: Another footnote
+[^2]: Another footnote
+```
+
+[^1]: My reference - clicking on footnote 1 points here
+[^2]: Another footnote - clicking on footnote 2 points here
 
 <br>
 <br>
 
 Tables
 -------------------------------------------------------------------------------------------------------
+Tables are defined by the pipe symble  `|  some text |`<br>
+Dashes on the second line defines a left aligned column `| ---- |`<br>
+Dashes with colons on both sides defines a ctner aligned column `| :----:`<br>
+Dashes with a colon on the right side defines a right aligned column `| ----: |`<br>
+Pipe symbols aren't necessary on the right and they do not need to be aligned, however it looks nicer and is standard practice to aligh everything and use pipe symbols on both sides.
+
+```
+| Left  | Center | Right   |
+| ----  | :----: | ------: |
+| One   | Two    | $1.00   |
+| Three | Four   | $120.00 |
+| Five  | Six    | $.99    |
+```
+<br>
+
 | Left  | Center | Right   |
 | ----  | :----: | ------: |
 | One   | Two    | $1.00   |
