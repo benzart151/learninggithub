@@ -21,7 +21,7 @@ Or create a code block withe three tic marks before at the beginning and end of 
 </html>
 ```
 
-SYNTAX: Headings
+Headings
 -------------------
 # Headline Leval 1
 Also Headline Leval 1
