@@ -265,6 +265,49 @@ Your create task lists by starting wiht a dash ` - [ ]` and putting opening and 
 	- [ ] Task 1 - Subtask 2
 - [ ] Task 2
 
+<br>
+<br>
+
+HTML
+---------------
+
+HTML Can be added with the `<details>` tag, and just about any kind of html inside of that tag.
+
+```html
+	<details>
+	<summary>collapsed</summary>
+	<h2>Header</h2>
+	<p>This is the copy for the collapsed text.</p>
+	</details>
+```
+
+The text is colapsed in teh example of the above code below.
+
+<details>
+<summary>collapsed</summary>
+<h2>Header</h2>
+<p>This is the copy for the collapsed text.</p>
+</details>
+
+<br>
+<br>
+
+Drag/Drop/Paste
+---------------
+
+The following file types can be dragg and dropped or pasted.<br>
+`.png` `.gif` `.jpg` `.jpeg` `.svg` `.log` `.docx` `.pptx` `.xlsx` `.txt` `.pdf` `.zip` `.gz` `.tgz` `.mp4` `.webm`
+
+#and @mentions
+-------------
+In a pull request @ lists the people on the project # lists all the issues or open pull requests.<br>
+The `:` sign will list emojis available for that editor.<br>
+Putting a hexadecimal number inside of tic marks will give a preview of the color in a pull request. <br>
+There are some other features of Markdown that work on pull requests but not in the markdown file.
+
+Disallowed Raw HTML
+-------------------
+`<title>` `<textarea>` `<style>` `<xmp>` `<iframe>` `<noembed>` `<noframes>` `<script>` `<plaintext>`
 
 	
 	
