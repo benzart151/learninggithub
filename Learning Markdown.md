@@ -245,6 +245,26 @@ Tables
 | Three | Four   | $120.00 |
 | Five  | Six    | $.99    |
 
+<br>
+<br>
+
+Task List
+------------------
+
+Your create task lists by starting wiht a dash ` - [ ]` and putting opening and closing brackets with a space between them. If you put an x between the brackets the task will be checked off, if there is no x the task will be blank. You creating sub tasks by tabbing the line of tasks after the main line. In some previewers the tasks will be checkable and moveable.
+
+```
+- [x] Task 1
+	- [ ] Task 1 - Subtask 1
+	- [ ] Task 1 - Subtask 2
+- [ ] Task 2
+```
+
+- [x] Task 1
+	- [ ] Task 1 - Subtask 1
+	- [ ] Task 1 - Subtask 2
+- [ ] Task 2
+
 
 	
 	
