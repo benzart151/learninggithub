@@ -209,7 +209,7 @@ Markdown Additions (GFM) GitHub Flavored Markdown
 This is a footnote [^1] *Denoted by the code* `[^1]`<br>
 This is another footnote [^2] *Denoted by the code* `[^2]`
 
-The footnotes point to references as below
+The footnotes point to references as below. The footnotes always appear at the bottom, no matter where you put the references.
 ```
 [^1]: My reference
 [^2]: Another footnote
@@ -223,12 +223,13 @@ The footnotes point to references as below
 
 Tables
 -------------------------------------------------------------------------------------------------------
-Tables are defined by the pipe symble  `|  some text |`<br>
-Dashes on the second line defines a left aligned column `| ---- |`<br>
-Dashes with colons on both sides defines a ctner aligned column `| :----:`<br>
-Dashes with a colon on the right side defines a right aligned column `| ----: |`<br>
-Pipe symbols aren't necessary on the right and they do not need to be aligned, however it looks nicer and is standard practice to aligh everything and use pipe symbols on both sides.
-
+* Tables are defined by the pipe symble  `| some text `<br>
+* The top row are the headings.
+* The second row defines the alignment.
+	* Dashes on the second line defines a left aligned column `| ---- `<br>
+	* Dashes with colons on both sides defines a ctner aligned column `| :----:`<br>
+	* Dashes with a colon on the right side defines a right aligned column `| ----: `<br>
+* Pipe symbols aren't necessary on the right and they do not need to be aligned, however it looks nicer and is standard practice to align everything and put a pipe symbol on both sides.
 ```
 | Left  | Center | Right   |
 | ----  | :----: | ------: |
